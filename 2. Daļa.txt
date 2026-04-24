@@ -1,0 +1,67 @@
+GRUPAS DARBS ( INDIVIDUĀLAIS :) )
+
+--=/2. Daļa\=--
+
+////1. uzdevums////
+
+1. Vadība
+Funkcija : Publicē ziņojumus iekšējos saziņas kanālos
+2. Menedžeris
+Funkcija : Saņem darbinieku nostrādāto stundu uzskaiti
+3. Klients
+Funkcija : Veic pirkumus un norēķinās bezskaidrā naudā
+4. Darbinieks
+Funkcija : Rezervē klientu galdiņus pēc klienta prasībām
+
+////2. Uzdevums////
+
+1. Prasība
+Mērķauditorija ir ofisu administratori vai darba devēji ,kuriem darbiniekiem darbs ir datoros.
+
+
+2. Prasība
+Mērķauditorija ir jebkurš darba devējs kuram ir iespējams iegūt konkrētu skaitli par darbinieka nostrādāto laiku
+
+
+3. Prasība
+Mērķauditorija ir veikali kuriem vēl nav iespējams samaksāt bezskaidrā naudā.
+
+
+4. Prasība
+Mērķauditorija ir restorāni kuriem rezervācija tiek veikta bez datora.
+
+
+////3. Uzdevums////
+
+1. Dot iespēju veikt uzskaiti cik naudas ir ienācis.
+
+2. Dot iespēju kasierim aizsūtīt ziņu ar pasūtījumu un ļaut to rediģēt.
+
+3. Dot iespēju virtuves darbiniekiem aizsūtīt statusu pasūtītam ēdienam uz zāli.
+
+////4. Uzdevums////
+
+Šai programmai būtu piemērota "Ūdenskrituma metode", jo veicot izstrādi sākumā jau tika izveidota ideja un prasības un ar tām var izveidot plānu, izstrādāt un pēc tam uzturēt.
+
+////5. Uzdevums////
+
+-1. Variants-
+
+Īss apraksts:
+
+
+Izvietošanas veids:
+
+Programmēšanas valoda: Python 3.11
+
+Koda redaktors: sistēmas administrators
+
+-2. Variants-
+
+Īss apraksts:
+
+Izvietošanas veids:
+
+Programmēšanas valoda: Python 3.11
+
+Koda redaktors: sistēmas administrators

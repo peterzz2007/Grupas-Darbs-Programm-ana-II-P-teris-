@@ -47,21 +47,21 @@ Mērķauditorija ir restorāni kuriem rezervācija tiek veikta bez datora.
 
 -1. Variants-
 
-Īss apraksts:
+Īss apraksts: Tīmekļa mājaslapa
 
 
 Izvietošanas veids:
 
 Programmēšanas valoda: Python 3.11
 
-Koda redaktors: sistēmas administrators
+Koda redaktors: Visual Studio Code
 
 -2. Variants-
 
-Īss apraksts:
+Īss apraksts: Programma ar lokālo datubāzi
 
 Izvietošanas veids:
 
 Programmēšanas valoda: Python 3.11
 
-Koda redaktors: sistēmas administrators
+Koda redaktors: Visual Studio Code

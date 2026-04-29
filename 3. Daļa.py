@@ -26,7 +26,7 @@ class Doctorates():
         for row in c.fetchall():
             val1 = row[1]
             val2 = row[2]
-            print(f"{val1}, pacientu skaits: {val2}")
+            print(f"{val1} apkalpo {val2} pacientus!")
 
 selection = input("Ko jūs vēlaties darīt? 1 - Pievienot doktorātu, 2 - Apskatīt doktorātus: ")
 if selection == "1":

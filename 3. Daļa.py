@@ -17,20 +17,23 @@ class Doctorates():
 
     def insert_data(self):
 
-        c.execute('''INSERT INTO DOCTORATES (DOCTORATE_NAME, PATIENT_COUNT) VALUES = (?, ?)''', (self.doc_name, self.patient_count))
-        print("Doktorāts veiksmīgi pievienots!")
+        c.execute('''INSERT INTO DOCTORATES (DOCTORATE_NAME, PATIENT_COUNT) VALUES (?, ?)''', (self.doc_name, self.patient_count))
+        print(f"Doktorāts {self.doc_name} tika veiksmīgi pievienots ar {self.patient_count} pacientiem!")
+        conn.commit()
 
     def view_data(self):
         c.execute('''SELECT * FROM DOCTORATES''')
         for row in c.fetchall():
-            print(row[0])
+            val1 = row[1]
+            val2 = row[2]
+            print(f"{val1}, pacientu skaits: {val2}")
 
 selection = input("Ko jūs vēlaties darīt? 1 - Pievienot doktorātu, 2 - Apskatīt doktorātus: ")
-if selection == 1:
-    print("success")
+if selection == "1":
     name = input("Ievadiet doktorāta vārdu!: ")
     count = input("Ievadiet pacientu skaitu!: ")
-    Doctorates.insert_data()
     docs = Doctorates(name, count)
-elif selection == 2:
-    Doctorates.view_data()
+    docs.insert_data()
+elif selection == "2":
+    obj = Doctorates("","")
+    obj.view_data()
